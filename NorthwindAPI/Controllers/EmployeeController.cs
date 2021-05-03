@@ -53,7 +53,7 @@ namespace NorthwindAPI.Controllers
 
         // POST api/<EmployeeController>
         [HttpPost]
-        public IActionResult Post([FromBody] EmployeeModel newEmployee)
+        public IActionResult Post([FromBody] Employees newEmployee)
         {
             try
             {
@@ -68,7 +68,7 @@ namespace NorthwindAPI.Controllers
 
         // PUT api/<EmployeeController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] EmployeeModel newEmployee)
+        public IActionResult Put(int id, [FromBody] Employees newEmployee)
         {
             try
             {

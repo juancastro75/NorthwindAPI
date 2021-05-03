@@ -51,7 +51,7 @@ namespace NorthwindAPI.Controllers
 
         // POST api/<ProductController>
         [HttpPost]
-        public IActionResult Post([FromBody] ProductModel newProduct)
+        public IActionResult Post([FromBody] Products newProduct)
         {
             try
             {
@@ -66,7 +66,7 @@ namespace NorthwindAPI.Controllers
 
         // PUT api/<ProductController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] ProductModel newProduct)
+        public IActionResult Put(int id, [FromBody] Products newProduct)
         {
             try
             {
