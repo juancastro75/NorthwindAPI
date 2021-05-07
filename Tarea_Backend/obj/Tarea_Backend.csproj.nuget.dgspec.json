@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\Tarea_Backend\\Tarea_Backend.csproj": {}
+    "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\Tarea_Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\Tarea_Backend\\Tarea_Backend.csproj": {
+    "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\Tarea_Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\Tarea_Backend\\Tarea_Backend.csproj",
+        "projectUniqueName": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\Tarea_Backend.csproj",
         "projectName": "Tarea_Backend",
-        "projectPath": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\Tarea_Backend\\Tarea_Backend.csproj",
+        "projectPath": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\Tarea_Backend.csproj",
         "packagesPath": "C:\\Users\\juanc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\Tarea_Backend\\obj\\",
+        "outputPath": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juanc\\AppData\\Roaming\\NuGet\\NuGet.Config",

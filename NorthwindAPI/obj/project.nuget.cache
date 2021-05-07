@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ct8bKRuHTpDxAJYolE18P4fwMOSdtwLbu2FUB09HTwEpgRe9XeTr4GLeE1rqKydPCy5+iAzOqWqGyGQgWhTUeA==",
+  "dgSpecHash": "HCzNZxFTdpNyeCiEg3LE7jZ53twftF/ZC9I+8dPTahSng1GC37ojZa7DhF/pb6dZNZj6KL5bjo3Z7GzuaywsEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI\\NorthwindAPI.csproj",
+  "projectFilePath": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\NorthwindAPI\\NorthwindAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juanc\\.nuget\\packages\\microsoft.applicationinsights\\2.15.0\\microsoft.applicationinsights.2.15.0.nupkg.sha512",
     "C:\\Users\\juanc\\.nuget\\packages\\microsoft.applicationinsights.aspnetcore\\2.15.0\\microsoft.applicationinsights.aspnetcore.2.15.0.nupkg.sha512",

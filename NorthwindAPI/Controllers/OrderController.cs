@@ -53,7 +53,7 @@ namespace NorthwindAPI.Controllers
 
         // POST api/<OrderController>
         [HttpPost]
-        public IActionResult Post([FromBody] Orders newOrder)
+        public IActionResult Post([FromBody] OrderModel newOrder)
         {
             try
             {
@@ -68,7 +68,7 @@ namespace NorthwindAPI.Controllers
 
         // PUT api/<OrderController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] Orders newOrder)
+        public IActionResult Put(int id, [FromBody] OrderModel newOrder)
         {
             try
             {
