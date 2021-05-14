@@ -1,49 +1,45 @@
-﻿/*using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using NorthwindAPI.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Tarea_Backend.Back_End;
-using Microsoft.AspNetCore.Http;
 using Tarea_Backend.Models;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
-namespace NorthwindAPI.Controllers
+namespace NorthwindAngularApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EmployeeController : ControllerBase
+    public class ProductController : ControllerBase
     {
-        private EmployeeSC employeeService = new EmployeeSC();
+        private ProductSC productService = new ProductSC();
 
-        // GET: api/<EmployeeController>
+        // GET: api/<ProductController>
         [HttpGet]
         public IActionResult Get()
         {
-            var employees = employeeService.GetEmployees().Select(s => new EmployeeDTO
+            var products = productService.GetProducts().Select(s => new ProductDTO
             {
-                id = s.EmployeeId,
-                Nombre = s.FirstName,
-                Apellido = s.LastName,
-                Pais = s.Country,
-                Ciudad = s.City,
-                Direccion = s.Address,
-                Nacimiento = s.BirthDate
+                id = s.ProductId,
+                Nombre = s.ProductName,
+                UnidadesPorCantidad = s.QuantityPerUnit,
+                PrecioPorUnidad = s.UnitPrice,
+                UnidadesEnVenta = s.UnitsInStock
             }).ToList();
 
-            return Ok(employees);
+            return Ok(products);
         }
 
-        // GET api/<EmployeeController>/5
+        // GET api/<ProductController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             try
             {
-                var employee = employeeService.GetEmployeeById(id);
-                return Ok(employee);
+                var product = productService.GetProductById(id);
+                return Ok(product);
             }
             catch (Exception ex)
             {
@@ -51,13 +47,13 @@ namespace NorthwindAPI.Controllers
             }
         }
 
-        // POST api/<EmployeeController>
+        // POST api/<ProductController>
         [HttpPost]
-        public IActionResult Post([FromBody] EmployeeModel newEmployee)
+        public IActionResult Post([FromBody] ProductModel newProduct)
         {
             try
             {
-                employeeService.AddEmployee(newEmployee);
+                productService.AddProduct(newProduct);
                 return Ok();
             }
             catch (Exception ex)
@@ -66,13 +62,13 @@ namespace NorthwindAPI.Controllers
             }
         }
 
-        // PUT api/<EmployeeController>/5
+        // PUT api/<ProductController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] EmployeeModel newEmployee)
+        public IActionResult Put(int id, [FromBody] ProductModel newProduct)
         {
             try
             {
-                employeeService.UpdateEmployeeById(id, newEmployee);
+                productService.UpdateProductById(id, newProduct);
                 return Ok();
             }
             catch (Exception ex)
@@ -81,13 +77,13 @@ namespace NorthwindAPI.Controllers
             }
         }
 
-        // DELETE api/<EmployeeController>/5
+        // DELETE api/<ProductController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             try
             {
-                employeeService.DeleteEmployeeById(id);
+                productService.DeleteProductById(id);
                 return Ok();
             }
             catch (Exception ex)
@@ -104,7 +100,5 @@ namespace NorthwindAPI.Controllers
         }
 
         #endregion
-
     }
 }
-*/

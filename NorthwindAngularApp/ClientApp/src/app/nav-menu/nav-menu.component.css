@@ -16,3 +16,16 @@ html {
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
+
+nav {
+  background: linear-gradient(90deg, rgba(42,42,133,1) 3%, rgba(162,105,203,1) 50%, rgba(34,194,193,1) 100%);
+  box-shadow: 0rem 0.2rem 1rem 0.1rem gray;
+}
+
+a{
+    color: white;
+}
+
+span{
+    margin-top: 7px;
+}

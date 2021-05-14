@@ -1,16 +1,14 @@
-﻿/*using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using NorthwindAPI.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Tarea_Backend.Back_End;
-using Microsoft.AspNetCore.Http;
 using Tarea_Backend.Models;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
-namespace NorthwindAPI.Controllers
+namespace NorthwindAngularApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -107,4 +105,3 @@ namespace NorthwindAPI.Controllers
 
     }
 }
-*/

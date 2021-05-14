@@ -1,49 +1,47 @@
-﻿/*using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using NorthwindAPI.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Tarea_Backend.Back_End;
-using Microsoft.AspNetCore.Http;
 using Tarea_Backend.Models;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
-namespace NorthwindAPI.Controllers
+namespace NorthwindAngularApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EmployeeController : ControllerBase
+    public class OrderController : ControllerBase
     {
-        private EmployeeSC employeeService = new EmployeeSC();
+        private OrderSC orderService = new OrderSC();
 
-        // GET: api/<EmployeeController>
+        // GET: api/<OrderController>
         [HttpGet]
         public IActionResult Get()
         {
-            var employees = employeeService.GetEmployees().Select(s => new EmployeeDTO
+            var orders = orderService.GetOrders().Select(s => new OrderDTO
             {
-                id = s.EmployeeId,
-                Nombre = s.FirstName,
-                Apellido = s.LastName,
-                Pais = s.Country,
-                Ciudad = s.City,
-                Direccion = s.Address,
-                Nacimiento = s.BirthDate
+                id = s.OrderId,
+                Peso = s.Freight,
+                Direccion = s.ShipAddress,
+                EnviadoPor = s.ShipName,
+                FechaDePedido = s.OrderDate,
+                FechaRequerida = s.RequiredDate,
+                FechaDeEnvio = s.ShippedDate
             }).ToList();
 
-            return Ok(employees);
+            return Ok(orders);
         }
 
-        // GET api/<EmployeeController>/5
+        // GET api/<OrderController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             try
             {
-                var employee = employeeService.GetEmployeeById(id);
-                return Ok(employee);
+                var order = orderService.GetOrderById(id);
+                return Ok(order);
             }
             catch (Exception ex)
             {
@@ -51,13 +49,13 @@ namespace NorthwindAPI.Controllers
             }
         }
 
-        // POST api/<EmployeeController>
+        // POST api/<OrderController>
         [HttpPost]
-        public IActionResult Post([FromBody] EmployeeModel newEmployee)
+        public IActionResult Post([FromBody] OrderModel newOrder)
         {
             try
             {
-                employeeService.AddEmployee(newEmployee);
+                orderService.AddOrder(newOrder);
                 return Ok();
             }
             catch (Exception ex)
@@ -66,13 +64,13 @@ namespace NorthwindAPI.Controllers
             }
         }
 
-        // PUT api/<EmployeeController>/5
+        // PUT api/<OrderController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] EmployeeModel newEmployee)
+        public IActionResult Put(int id, [FromBody] OrderModel newOrder)
         {
             try
             {
-                employeeService.UpdateEmployeeById(id, newEmployee);
+                orderService.UpdateOrderById(id, newOrder);
                 return Ok();
             }
             catch (Exception ex)
@@ -81,13 +79,13 @@ namespace NorthwindAPI.Controllers
             }
         }
 
-        // DELETE api/<EmployeeController>/5
+        // DELETE api/<OrderController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             try
             {
-                employeeService.DeleteEmployeeById(id);
+                orderService.DeleteOrderById(id);
                 return Ok();
             }
             catch (Exception ex)
@@ -104,7 +102,5 @@ namespace NorthwindAPI.Controllers
         }
 
         #endregion
-
     }
 }
-*/

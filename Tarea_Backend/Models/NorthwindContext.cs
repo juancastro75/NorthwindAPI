@@ -60,7 +60,7 @@ namespace Tarea_Backend.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=LAPTOP-S0RKH975\\SQLEXPRESS;Database=Northwind;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-CG9D12H;Database=Northwind;Trusted_Connection=True;");
             }
         }
 

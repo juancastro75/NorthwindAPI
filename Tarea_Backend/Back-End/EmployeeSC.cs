@@ -30,7 +30,7 @@ namespace Tarea_Backend.Back_End
             newEmployeeRegister.Country = newEmployee.Pais;
             newEmployeeRegister.City = newEmployee.Ciudad;
             newEmployeeRegister.Address = newEmployee.Direccion;
-            newEmployeeRegister.BirthDate = newEmployee.Nacimiento;
+            //newEmployeeRegister.BirthDate = newEmployee.Nacimiento;
 
             dataContext.Employees.Add((Employees)newEmployeeRegister);
             dataContext.SaveChanges();

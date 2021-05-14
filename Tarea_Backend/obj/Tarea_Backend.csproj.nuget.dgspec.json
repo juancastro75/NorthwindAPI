@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\Tarea_Backend.csproj": {}
+    "C:\\Users\\HP\\Desktop\\tarea4-be\\NorthwindAPI-master\\Tarea_Backend\\Tarea_Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\Tarea_Backend.csproj": {
+    "C:\\Users\\HP\\Desktop\\tarea4-be\\NorthwindAPI-master\\Tarea_Backend\\Tarea_Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\Tarea_Backend.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\tarea4-be\\NorthwindAPI-master\\Tarea_Backend\\Tarea_Backend.csproj",
         "projectName": "Tarea_Backend",
-        "projectPath": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\Tarea_Backend.csproj",
-        "packagesPath": "C:\\Users\\juanc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\tarea4-be\\NorthwindAPI-master\\Tarea_Backend\\Tarea_Backend.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\tarea4-be\\NorthwindAPI-master\\Tarea_Backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\juanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -70,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

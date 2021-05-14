@@ -1,0 +1,15 @@
+h1 {
+  margin-top: 40px;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+button{
+    margin: 20px;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 19%, rgba(0,212,255,1) 100%);
+}
