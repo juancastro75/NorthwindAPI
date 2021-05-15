@@ -1,17 +1,6 @@
 <h1>Agregar nuevo Empleado</h1>
 <p>Rellene los campos correctamente</p>
-<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
-
-  <!--
-  <div class="form-group">
-    <label for="exampleInputEmail1">ID</label>
-    <div class="col-md-3">
-      <input class="form-control" placeholder="Ingrese el ID del empleado">
-    </div>
-
-  </div>
-  -->
-
+<form [formGroup]="profileForm">
   <div class="form-row">
     <div class="form-group col-md-6">
       <h5 for="exampleInputEmail1">Nombre</h5>
@@ -35,7 +24,6 @@
   </div>
 
   <div class="col text-center">
-    <button type="submit" class="btn btn-primary btn-lg">Aceptar</button>
+    <button type="submit" class="btn btn-primary btn-lg" (click)="onSubmit()">Aceptar</button>
   </div>
-  
 </form>

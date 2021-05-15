@@ -2,15 +2,14 @@
 <h1>Eliminar Empleado</h1>
 <p>Ingrese el numero del empleado a eliminar</p>
 
-<form>
+<form [formGroup]="deleteForm">
   <div class="form-row">
-    <h4 class="col-sm-2 col-form-label text-right" for="exampleInputEmail1">ID:</h4>
+    <h4 class="col-sm-2 col-form-label text-right" form="exampleInputEmail1">ID:</h4>
     <div class="col-sm-5">
-      <input class="form-control" placeholder="Ingrese el ID">
+      <input class="form-control" placeholder="Ingrese el ID" formControlName="id">
     </div>
     <div class="col-sm-5">
-      <button type="submit" class="btn btn-danger">Aceptar</button>
+      <button  type="submit" class="btn btn-danger" (click)="onSubmit()">Aceptar</button>
     </div>
   </div>
-
 </form>

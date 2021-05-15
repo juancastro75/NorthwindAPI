@@ -1,5 +1,6 @@
 import { Component, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { environment } from "../../environments/environment";
 
 @Component({
   selector: 'app-fetch-data',
@@ -8,8 +9,8 @@ import { HttpClient } from '@angular/common/http';
 export class FetchDataComponent {
   public empleados: Employee[];
 
-  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<Employee[]>(baseUrl + 'api/Employee').subscribe(result => {
+  constructor(http: HttpClient) {
+    http.get<Employee[]>(environment.ApiConfig.url).subscribe(result => {
       this.empleados = result;
     }, error => console.error(error));
   }

@@ -8554,25 +8554,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\juanc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\tarea4-be\\NorthwindAPI-master\\NorthwindAPI\\NorthwindAPI.csproj",
+      "projectUniqueName": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\NorthwindAPI\\NorthwindAPI.csproj",
       "projectName": "NorthwindAPI",
-      "projectPath": "C:\\Users\\HP\\Desktop\\tarea4-be\\NorthwindAPI-master\\NorthwindAPI\\NorthwindAPI.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\tarea4-be\\NorthwindAPI-master\\NorthwindAPI\\obj\\",
+      "projectPath": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\NorthwindAPI\\NorthwindAPI.csproj",
+      "packagesPath": "C:\\Users\\juanc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\NorthwindAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\juanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -8585,8 +8580,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\HP\\Desktop\\tarea4-be\\NorthwindAPI-master\\Tarea_Backend\\Tarea_Backend.csproj": {
-              "projectPath": "C:\\Users\\HP\\Desktop\\tarea4-be\\NorthwindAPI-master\\Tarea_Backend\\Tarea_Backend.csproj"
+            "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\Tarea_Backend.csproj": {
+              "projectPath": "C:\\Users\\juanc\\OneDrive\\Documentos\\USB\\Escuela\\FCFM\\Sexto Semestre\\Backend\\NorthwindAPI_V1\\Tarea_Backend\\Tarea_Backend.csproj"
             }
           }
         }
@@ -8628,7 +8623,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

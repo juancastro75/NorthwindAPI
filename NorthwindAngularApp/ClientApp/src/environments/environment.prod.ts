@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  ApiConfig: {
+    url: 'https://localhost:44309/api/Employee'
+  }
 };
